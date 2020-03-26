@@ -1,0 +1,47 @@
+/* Styling */
+
+/* main container */
+main{
+  width:80%;
+  height:80%;
+  background-color:#3399ff;
+  margin:auto;
+  align:center;
+}
+
+/* input boxes */
+.input{
+  display:block;
+  width:40%;
+  align:center;
+  margin:auto;
+}
+
+/* outputs container */
+.outputContainer{
+  display:block;
+  width:70%;
+  align:center;
+  margin:auto;
+}
+
+/* table */
+.outputTable{
+  display:inline-block;
+  border-collapse:collapse;
+  float:left;
+  margin-top:30px;
+  margin:auto;
+}
+
+/* cells */
+td{
+  border:1px solid black;
+}
+
+/* canvas container */
+.canvas{
+  float:right;
+  margin-top:30px;
+  margin:auto;
+}

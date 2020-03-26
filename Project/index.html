@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Neural Network</title>
+
+    <!-- p5.js imports -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+    <!-- style imports -->
+    <link rel="stylesheet" type="text/css" href="style.css" >
+  </head>
+
+  <body>
+    <!-- javascript files -->
+    <script src="sketch.js"></script>
+    <script src="matrix.js"></script>
+    <script src="network.js"></script>
+
+    <!-- main container -->
+    <main>
+
+      <!-- input form -->
+      <form>
+        <!-- inputs -->
+        <input type="number" min="0" max="1" value="0" id="input1" class="input">
+        <br><br>
+        <input type="number" min="0" max="1" value="0" id="input2" class="input">
+        <br><br>
+        <!-- button to run the program -->
+        <input type="button" value="run" id="button" onclick="start();" class="input">
+      </form>
+
+      <!-- outputs container -->
+      <div class="outputContainer">
+        <!-- table -->
+        <table class="outputTable" id="table"></table>
+
+        <!-- cancvas container -->
+        <div class="canvas" id="graph"></div>
+      </div>
+    </main>
+  </body>
+</html>
